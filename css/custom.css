@@ -370,3 +370,16 @@ opacity:1;}
     height: 200px;
 	background-position: bottom;
 }
+
+
+/* Error */
+.alert-danger {
+	background: #de371a;
+}
+.alert-success {
+	background: #80c358;
+}
+.alert-success, .alert-danger {
+	font-size: 18px;
+	color: #ffffff;
+}

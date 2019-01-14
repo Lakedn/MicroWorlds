@@ -104,115 +104,69 @@
  	  
 	  
 <!-- Содержимое -->
-<!-- Заголовок -->
+
 <div class="container-fluid pt-4">
-<h3 class="text-center border-bottom pb-3 mb-3"><span class="text-uppercase">Edit project</span>: <span class="text-danger">Name project</span></h3>
-<!-- /Заголовок -->
-<form class="upload-laked">
-<div class="row">
-<!-- Левый блок формы -->
-<div class="col">
-  <div class="form-group pt-2">
-    <label for="exampleInputEmail1">Choose MicroWorlds file to upload</label>
-	<hr class="d-none  d-sm-block">
-	<h4 class="text-danger text-center pb-3 alert alert-light">My-project_2018.mwx</h4>
-	<div class="alert alert-secondary green-border-laked text-center">
-	<h4 class="pb-3">Drop file to upload</h4>
-    <button type="submit" class="btn btn-green-laked btn-lg">or click here</button>
-	</div>
-  </div>
-  <div class="preview-image-laked text-center" ><img src="images/demo/1.jpg"/></div>
-  <div class="form-group pt-2">
-  
-    <label for="exampleInputEmail1">Preview image</label>
-	<hr class="d-none  d-sm-block">
-	<div class="alert alert-secondary green-border-laked text-center">
-	<h4 class="pb-3">Drop file to upload</h4>
-    <button type="submit" class="btn btn-green-laked btn-lg">or click here</button>
-	</div>
+<!-- Заголовок --> 
+<div class="row border-bottom mb-4">
+  <div class="col">
+<h3 class="text-center pb-3 mb-1"><span class="text-uppercase">Register</h3>
   </div>
 </div>
-<!-- /Левый блок формы -->
+<!-- /Заголовок -->  
+<!-- Уведомления -->
+<div class="row w-50 mx-auto w100-laked">
+<div class="col">
+ <!-- Ошибка -->	
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+ <!-- /Ошибка -->
+  <!-- Успех -->	
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> Ok! Ok! Ok!
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+ <!-- /Успех -->
+</div>
+</div>
+<!-- /Уведомления -->	
+<form class="upload-laked">
+<div class="row w-50 mx-auto">
 <!-- Центральный блок формы -->
-<div class="col-xl-6 col-12 col-lg-6  col-sm-12   col-sm-12">
-  <div class="form-group pt-2">
-    <label for="exampleInputEmail1">Title</label>
-	<hr class="d-none  d-sm-block">
-    <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Title">
-  </div>
+<div class="col">
   <div class="form-group pt-2">
 
-    <label for="exampleInputEmail1">Folder</label>
-	<hr class="d-none  d-sm-block">
-        <select class="form-control rounded-0" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-
-  </div>    
-  <div class="form-group pt-2">
-    <label for="exampleFormControlTextarea1">Description</label>
-	<hr class="d-none  d-sm-block">
-    <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="4"></textarea>
+    <input type="text" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
   </div>
+      
+    <div class="form-group pt-2">
+    <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-Mail Address">
+  </div>
+  
+    <div class="form-group pt-2">
+	
+    <input type="password" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="passwordHelp" placeholder="Password">
+  </div>
+  
+    <div class="form-group pt-2">
+    <input type="password" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="passwordHelp" placeholder="Confirm Password">
+  </div>
+
 
   </div>
   <!-- /Центральный блок формы -->
-  <!-- Правый блок формы -->
-<div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12">
-<div class="form-group pt-2">
-    <label for="exampleInputEmail1">Tags or keywords</label>
-	<hr class="d-none  d-sm-block">
-    <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tags">
-  </div>
-    <div class="form-group pt-2">
-    <label for="exampleFormControlSelect1">Grade level</label>
-	<hr class="d-none  d-sm-block">
-    <select class="form-control rounded-0" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-      <div class="form-group pt-2">
-    <label for="exampleFormControlSelect1">Curriculum theme</label>
-	<hr class="d-none  d-sm-block">
-    <select class="form-control rounded-0" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
-  </div>
-</div>
-<!-- /Правый блок формы -->
 
 </div>
 <!-- Нижний блок формы -->
-<div class="row private-laked">
-<div class="col">
-&nbsp;
-</div>
-<div class="col-xl-6 col-12 col-lg-6  col-sm-12   col-sm-12">
-<div class="row">
-<div class="col px-0 text-center">
-  	  <div class="form-group form-check pl-4 mb-2">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label text-primary" for="exampleCheck1">Private</label>
-  </div>
+<div class="row w-50 mx-auto mt-2 mb-5 text-center">
 
- <button class="btn btn-primary btn-upload-laked mx-0" href="#" role="button">Upload</button>
- </div>
- </div>
- </div>
- <div class="col-xl-2 col-lg-12 col-md-12 col-sm-12 col-12">
- &nbsp;
+ <div class="col">
+ <button class="btn btn-primary btn-lg mx-0 w-25" href="#" role="button">REGISTER</button>
  </div>
  </div>
  <!-- /Нижний блок формы -->
