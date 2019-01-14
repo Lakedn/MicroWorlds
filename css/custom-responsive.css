@@ -1,0 +1,65 @@
+@media (min-width: 1200px) {
+.upload-laked .private-laked {
+margin-top:-95px;
+margin-bottom: 100px;
+}
+}
+@media (max-width: 1360px) {
+.top-menu-laked li, .top-menu-laked li.active,  .top-menu-laked li:hover,  .top-menu-laked a:hover {
+font-size: 0.9rem;}
+}
+@media (max-width: 820px) {
+
+  .form-search-laked {
+max-width:100%!important;}
+.nav-link {
+    padding: 0rem;
+}
+.top-menu-laked li.active, .top-menu-laked li:hover, .top-menu-laked li, .top-nav-laked a  {
+    font-size: 0.85rem;
+}
+footer .nav {
+display:block;
+padding-left:20%;}
+.nav-tabs-laked .h3 {
+font-size:1rem;}
+.nav-tabs-laked .h6 {
+font-size:0.75rem;}
+.nav-tabs-laked .nav-item {
+padding:7px 1px!important;
+margin:0!important;}
+.tortilla-laked {
+top: -15%;
+}
+
+}
+@media (max-width: 575px) {
+.nav-tabs-laked .h3 {
+font-size:0.75rem;}
+.tortilla-laked {
+top: 10%;
+}
+  .form-search-laked {
+max-width:150px!important;}
+.top-menu-laked  li {
+width:100%;
+text-align:left;}
+
+#toTop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	z-index:1000;
+}
+/* фильтр*/
+		.vertical-block-laked, .vertical-block-drop-laked  {
+			width: 200px;
+			height:80px;
+font-size:1.5rem;
+ line-height:100px;
+}
+.container-fluid.pt-4 img.float-right.pr-4 {
+float:none!important;}
+}

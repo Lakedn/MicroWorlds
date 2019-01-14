@@ -1,0 +1,126 @@
+/*!
+В этом файле изменен только цвет с #007bff на #de371a 
+
+ * Bootstrap v4.1.3 (https://getbootstrap.com/)
+ * Copyright 2011-2018 The Bootstrap Authors
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+:root {
+  --blue: #de371a;
+  --primary: #de371a;
+}
+
+a {
+  color: #de371a;
+}
+a:hover {
+  color: #b5240b;
+}
+
+.btn-primary {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+
+.btn-outline-primary {
+  color: #de371a;
+  border-color: #de371a;
+}
+
+.btn-outline-primary:hover {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+.btn-outline-primary.disabled, .btn-outline-primary:disabled {
+  color: #de371a;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+.btn-link {
+
+  color: #de371a;
+
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #de371a;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #de371a;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #de371a;
+}
+
+.custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
+  background-color: #de371a;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #de371a;
+}
+
+.custom-range::-webkit-slider-thumb {
+  background-color: #de371a;
+}
+
+.custom-range::-moz-range-thumb {
+  background-color: #de371a;
+}
+.custom-range::-ms-thumb {
+  background-color: #de371a;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #de371a;
+}
+.page-link {
+  color: #de371a;
+}
+
+.page-item.active .page-link {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+.badge-primary {
+  background-color: #de371a;
+}
+.progress-bar {
+  background-color: #de371a;
+}
+.list-group-item.active {
+  background-color: #de371a;
+  border-color: #de371a;
+}
+
+.bg-primary {
+  background-color: #de371a !important;
+}
+
+.border-primary {
+  border-color: #de371a !important;
+}
+
+.text-primary {
+  color: #de371a !important;
+}
+
+.btn-primary:hover {
+  background-color: #b5240b;
+  border-color: #de371a;
+}
+.form-control:focus {
+  border-color: #de371a;
+  box-shadow: 0 0 0 0.2rem rgba(222, 55, 26, 0.25);
+}
