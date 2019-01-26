@@ -19,7 +19,7 @@
 
   </head>
 
-  <body class="projects">
+  <body>
  
 
  <div class="container-fluid p-0">  
@@ -163,7 +163,7 @@
 	  
 <!-- Содержимое -->
 
-<div class="container-fluid pt-4">
+<div class="container-fluid pt-4 projects">
 
 
 <!-- Кнопка загрузки и заголовок --> 
@@ -198,16 +198,20 @@
   <div class="col">
   <form class="mx-4 my-2 form-inline">
   <button type="button" class="btn btn-primary bg-green-laked mx-0 border-0"  data-toggle="modal" data-target="#exampleModal-newfolder">New Folder</button>
-    <select class="form-control rounded-0 mx-4" id="exampleFormControlSelect1">
-      <option>Select</option>
-      <option>All</option>
-      <option>None</option>
-    </select>
-	    <select class="form-control rounded-0" id="exampleFormControlSelect1">
-      <option>Folder</option>
-      <option>Test folder</option>
-      <option>Folder 123</option>
-    </select>
+      <div class="dropdown">
+       <a class="btn dropdown-toggle btn-outline-secondary rounded mx-2" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Select</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">All</a>
+      <a class="dropdown-item" href="#">None</a>
+    </div>
+      </div>
+      <div class="dropdown">
+       <a class="btn dropdown-toggle btn-outline-secondary rounded" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Folder</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Folder1</a>
+      <a class="dropdown-item" href="#">Folder2</a>
+    </div>
+    </div>
 <button class="btn btn-primary mx-4" href="#" role="button">Delete selected</button>
   </form>
   </div>
@@ -223,11 +227,8 @@
  <!-- Подпапка !-->
  <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -249,11 +250,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -277,11 +275,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -305,11 +300,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -333,11 +325,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -361,11 +350,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -389,11 +375,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
@@ -417,11 +400,8 @@ Test folder</a>
   <div class="card-body py-2 px-0 m-0">
 <!-- Карточка видео верхний ряд!-->
   <div class="row">
- <div class="col p-0 m-0"> 
- <form class="mx-4 my-0 py-0">
-  <input type="checkbox" value="" id="defaultCheck1" class="my-0 py-0 laked-checkbox form-check-input">
-			</form>
-  <a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
+ <div class="col p-0 m-0">  <input type="checkbox" value="" id="defaultCheck1" class="ml-1 my-0 py-0 laked-checkbox form-check-input">
+  	<a href="#"><i class="demo-icon icon-edit laked-color-green ml-4 mr-0 pl-1">&#xe805;</i></a> 
   <a href="#"><i class="demo-icon icon-delete laked-color-red m-0 pl-2">&#xe804;</i></a>
 			</div>
   
