@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontawesome';
-  src: url('../font/fontawesome.eot?59053502');
-  src: url('../font/fontawesome.eot?59053502#iefix') format('embedded-opentype'),
-       url('../font/fontawesome.woff2?59053502') format('woff2'),
-       url('../font/fontawesome.woff?59053502') format('woff'),
-       url('../font/fontawesome.ttf?59053502') format('truetype'),
-       url('../font/fontawesome.svg?59053502#fontawesome') format('svg');
+  src: url('/font/fontawesome.eot');
+  src: url('/font/fontawesome.eot#iefix') format('embedded-opentype'),
+       url('/font/fontawesome.woff2') format('woff2'),
+       url('/font/fontawesome.woff') format('woff'),
+       url('/font/fontawesome.ttf') format('truetype'),
+       url('/font/fontawesome.svg#fontawesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontawesome';
-    src: url('../font/fontawesome.svg?59053502#fontawesome') format('svg');
+    src: url('../font/fontawesome.svg?88634788#fontawesome') format('svg');
   }
 }
 */
@@ -71,3 +71,48 @@
 .icon-arrow-1:before { content: '\e80d'; } /* '' */
 .icon-lock:before { content: '\e80e'; } /* '' */
 .icon-right-dir:before { content: '\e815'; } /* '' */
+.icon-facebook:before { content: '\f300'; } /* '' */
+.icon-facebook-rect:before { content: '\f301'; } /* '' */
+.icon-twitter:before { content: '\f302'; } /* '' */
+.icon-twitter-bird:before { content: '\f303'; } /* '' */
+.icon-icq:before { content: '\f304'; } /* '' */
+.icon-yandex:before { content: '\f305'; } /* '' */
+.icon-yandex-rect:before { content: '\f306'; } /* '' */
+.icon-github-text:before { content: '\f307'; } /* '' */
+.icon-github:before { content: '\f308'; } /* '' */
+.icon-googleplus-rect:before { content: '\f309'; } /* '' */
+.icon-vkontakte-rect:before { content: '\f30a'; } /* '' */
+.icon-skype:before { content: '\f30b'; } /* '' */
+.icon-odnoklassniki:before { content: '\f30c'; } /* '' */
+.icon-odnoklassniki-rect:before { content: '\f30d'; } /* '' */
+.icon-vimeo-rect:before { content: '\f30e'; } /* '' */
+.icon-vimeo:before { content: '\f30f'; } /* '' */
+.icon-tumblr-rect:before { content: '\f310'; } /* '' */
+.icon-tumblr:before { content: '\f311'; } /* '' */
+.icon-friendfeed:before { content: '\f312'; } /* '' */
+.icon-friendfeed-rect:before { content: '\f313'; } /* '' */
+.icon-blogger:before { content: '\f314'; } /* '' */
+.icon-blogger-rect:before { content: '\f315'; } /* '' */
+.icon-deviantart:before { content: '\f316'; } /* '' */
+.icon-jabber:before { content: '\f317'; } /* '' */
+.icon-lastfm:before { content: '\f318'; } /* '' */
+.icon-lastfm-rect:before { content: '\f319'; } /* '' */
+.icon-linkedin:before { content: '\f31a'; } /* '' */
+.icon-linkedin-rect:before { content: '\f31b'; } /* '' */
+.icon-picasa:before { content: '\f31c'; } /* '' */
+.icon-wordpress:before { content: '\f31d'; } /* '' */
+.icon-instagram:before { content: '\f31e'; } /* '' */
+.icon-instagram-filled:before { content: '\f31f'; } /* '' */
+.icon-diigo:before { content: '\f320'; } /* '' */
+.icon-box:before { content: '\f321'; } /* '' */
+.icon-box-rect:before { content: '\f322'; } /* '' */
+.icon-tudou:before { content: '\f323'; } /* '' */
+.icon-youku:before { content: '\f324'; } /* '' */
+.icon-win8:before { content: '\f325'; } /* '' */
+.icon-amex:before { content: '\f326'; } /* '' */
+.icon-discover:before { content: '\f327'; } /* '' */
+.icon-visa:before { content: '\f328'; } /* '' */
+.icon-mastercard:before { content: '\f329'; } /* '' */
+.icon-houzz:before { content: '\f32a'; } /* '' */
+.icon-bandcamp:before { content: '\f32b'; } /* '' */
+.icon-codepen:before { content: '\f32c'; } /* '' */
