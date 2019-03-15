@@ -264,6 +264,13 @@ width:200px!important;}
 .bg-green-laked {
 background:#80c358;
 color:#ffffff!important;}
+.bg-green-laked:hover {
+background:#75b450!important;
+}
+.border-green-laked {
+border-color:#80c358!important;
+}
+button {cursor: pointer;}
 
 /* back to top */
 
